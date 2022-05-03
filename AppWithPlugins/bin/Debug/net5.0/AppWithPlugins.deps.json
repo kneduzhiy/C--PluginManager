@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AppWithPlugins/1.0.0": {
+        "dependencies": {
+          "AppWithPlugins.SDK": "1.0.0"
+        },
+        "runtime": {
+          "AppWithPlugins.dll": {}
+        }
+      },
+      "AppWithPlugins.SDK/1.0.0": {
+        "runtime": {
+          "AppWithPlugins.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppWithPlugins/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppWithPlugins.SDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
